@@ -9,8 +9,8 @@ import time
 import colorama
 
 # UserAgent and subdomain list
-USERAGENT = [agent.strip() for agent in open('/Users/x/useragents.txt')]
-SUBDOMAIN = [sub.strip() for sub in open('/Users/x/subdomain-list.txt')]
+USERAGENT = [agent.strip() for agent in open('useragents.txt')]
+SUBDOMAIN = [sub.strip() for sub in open('subdomain.txt')]
 
 say = 0 #Increase the domain in the subdomain list by 1 each time
 
